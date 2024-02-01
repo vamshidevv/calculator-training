@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  background-color: rgb(53, 67, 78);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.calculator form input {
+  width: 280px;
+  height: 60px;
+  margin: 8px;
+  text-align: right;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding-right: 5px;
+  color: white;
+  background: none;
+  border: none;
+  /* border-bottom: 1px solid white; */
+  /* overflow: auto; */
+}
+.calculator form button {
+  color: #fff;
+  height: 55px;
+  width: 55px;
+  margin: 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  /* box-shadow: 3px 3px 4px black; */
+  /* transition: 0.3s; */
+  -webkit-transition-transition: 0.2s;
+  cursor: pointer;
+  background: transparent;
+}
+.calculator form button:hover {
+  transform: scale(1.05);
+  background-color: rgba(166, 187, 207, 0.5);
+  color: #fff;
+  /* box-shadow: 2px 2px 3px black; */
+}
+.calculator form .equalBtn {
+  /* background-color: orange; */
+  /* transition: 0.5s all; */
+  box-shadow: 2px 2px 3px black;
+}
+.calculator form .equalBtn:hover {
+  background-color: orange;
+}
+.calculator form .unique {
+  color: orange;
+}
+#prevInp {
+  border-bottom: 1px solid #f3e8e87a;
+  border-top: 1px solid #f3e8e87a;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  /* border-radius: 15px; */
+  display: none;
+  /* z-index: -1; */
+  transition: 0.3s;
+  margin: 5px auto;
+  padding: auto;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 13px;
+}
+#Prev {
+  border: none;
+  outline: none;
+  background-color: rgba(212, 206, 206, 0.589);
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rmv {
+
+
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  display: none;
+  padding-top: 3px;
+  position: absolute;
+  left: 1050px;
+  top: 246px;
+}

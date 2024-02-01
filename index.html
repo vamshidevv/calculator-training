@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="path/to/calculator-icon.ico" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+  
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div>
+          <button id="Prev" >
+            
+            <ion-icon name="arrow-undo-outline" style="height: 20px;width: 20px;"></ion-icon>
+          </button>
+          <div  id="prevInp" ></div>
+          <button id="rmv"  >
+
+            <ion-icon name="close-outline" style="height: 20px;width: 20px;   font-size: 22px;" ></ion-icon>
+                  
+          </button>
+
+        </div>
+        <form>
+         
+          <div>
+            <input type="text" id="totalVal"  />
+          </div>
+          <div>
+            <button class="unique" id="btn">AC</button>
+            <button class="unique"  id="btn">DEl</button>
+            <button class="unique"  id="btn">%</button>
+            <button class="unique"  id="btn">/</button>
+          </div>
+          <div>
+            <button id="btn">7</button>
+            <button id="btn">8</button>
+            <button id="btn">9</button> 
+            <button class="unique" id="btn">*</i></button>    <!-- X  --> 
+          </div>  
+          <div>
+            <button id="btn">4</button>
+            <button id="btn">5</button>
+            <button id="btn">6</button>
+            <button  id="btn"class="unique">-</button>
+          </div>
+          <div>
+            <button id="btn">1</button>
+            <button id="btn" >2</button>
+            <button id="btn" >3</button>
+            <button id="btn"  class="unique">+</button>
+          </div>
+          <div>
+            <button id="btn" >00</button>
+            <button id="btn" >0</button>
+            <button id="btn" >.</button>
+            <button  id="btn" class="equalBtn">=</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
